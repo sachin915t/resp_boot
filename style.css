@@ -13,3 +13,35 @@
 .my-contact{
     margin-top: 40px;
 }
+
+.list-section{
+    margin: 20px;
+}
+
+::selection{
+    background-color:rgb(13, 110, 253);
+    color: white;
+}
+
+.box{
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+@media (width<=800px) {
+    .box{
+        flex-direction: column;
+
+    }
+    .zoom:hover{
+        transform: scale(1);
+    }
+}
+
+.zoom{
+    transition: 0.4s ease-in;
+}
+.zoom:hover{
+    transform: scale(1.2) rotate(3deg);
+}
