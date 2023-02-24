@@ -9,6 +9,7 @@
 .navbar{
     position: sticky;
     top:0px;
+    zindex:100;
 }
 
 .my-project{
