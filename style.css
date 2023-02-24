@@ -1,0 +1,15 @@
+.my-card{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    padding: 20px;
+}
+
+.my-project{
+    margin-top: 400px;
+}
+
+.my-contact{
+    margin-top: 40px;
+}
